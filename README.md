@@ -1,6 +1,17 @@
 Cross-Scale Cost Aggregation for Stereo Matching (CVPR 2014)
 ================
 
+# 总结
+    1）CSCA是一个优秀的立体匹配算法，它的性价比，综合来说是比较高的，并且CSCA只是一个框架，
+       言外之意，我们可以根据框架的思想自己创建新的算法，说不定能够获取更好的性能。
+
+    2)  CSCA最可贵的是，提供了详细的源代码，在文献中提示的地址就可以下载到，为作者这种诚实的，敢于开源的精神点赞！
+
+    3）我认为CSCA是一个多尺度的局部算法，还不应该归类为全局算法的类别，这种多尺度思想，
+       我想在今后的工作中会有越来越多的研究人员继续深入研究。
+
+
+
 ## Compilation
 ### Windows
 The code is a Visual Studio 2010 project on Windows x64 platform. To build the project, you need to configure [OpenCV](http://opencv.org/) on your own PC. (version 2.4.6, however, other versions are acceptable by modifying [CommFunc.h](/SSCA/CommFunc.h)).
